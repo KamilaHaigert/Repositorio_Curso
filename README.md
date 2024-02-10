@@ -1,2 +1,2 @@
-# Repositorio_Curso
+# Repositório_Curso
  Repositório direcionado ao meu curso.
