@@ -1,0 +1,125 @@
+/* Estilo para os textos fora do botão e com a classe "white-text"*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.white-text{
+    color:#FFF7F3 ;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    background-color: #EF605E;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px ;
+    padding: 20px;
+    padding-top: 0;
+    background-color: #EF605E;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+#nome, #email, #senha {
+    margin-top: 10px;
+ 
+}
+
+
+button {
+    background-color:#93DBDF;
+    color: #EF605E;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 130px;
+    margin: 20px;
+    margin-top: 20px;
+    
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color:#EF605E;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+/* Adicionando a borda colorida */
+input[type="color"] {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid transparent; /* Linha inferior transparente inicialmente */
+    margin-top: 10px;
+}
+
+input[type="color"]:focus {
+    outline: none;
+}
+
+/* Alterando a cor da borda quando selecionado */
+input[type="color"]:focus + label {
+    border-color: #007bff;
+}
+
+/* Alterando a cor da borda quando escolhida */
+input[type="color"] + label {
+    display: block;
+    margin-top: 20px;
+    border-bottom: 2px solid #007bff; /* Defina a cor padrão aqui */
+}
+
+/* Espaçamento */
+.container > *:not(:first-child) {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #93DBDF;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.p-Footer, a {
+    color: rgb(247, 247, 247); 
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+     
+}
