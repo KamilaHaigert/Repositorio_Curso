@@ -156,7 +156,11 @@ p {
 
 }
 
-.estrela>img {
+.estrela > img {
     width: 90px;
 
+}
+
+.h2 {
+    padding-top: 7px;
 }

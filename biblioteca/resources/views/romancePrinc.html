@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="principal.css">
+    <script src="menu.js"></script>
+    <script src="generos.js" defer></script>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
+        type='text/css'>
+    <title>Biblioteca Sem Fronteiras</title>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="btn-open" onclick="abrirMenu()">&#9776;</a>
+    </header>
+    <nav id="menuLateral" class="display-none">
+        <a href="#" class="btn-close" onclick="fecharMenu()">&times;</a>
+        <ul>
+            <li><a href="principal.html">INÍCIO</a></li>
+            <li><a id="list-g" href="#">LISTA DE GÊNEROS</a></li>
+            <ul id="ul-generos" class="display-none">
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Terror</a></li>
+                <li><a href="#">Ficção Cientifica</a></li>
+                <li><a href="#">Fantasia</a></li>
+                <li><a href="#">Drama</a></li>
+                <li><a href="#">Suspense</a></li>
+                <li><a href="#">Comédia</a></li>
+            </ul>
+            <li><a href="#">MEU PERFIL</a></li>
+        </ul>
+    </nav>
+
+    <div class="logo">
+        <img src="imgs/logo.png" alt="logo do site">
+    </div>
+    <div class="text-box">
+        <input type="text" placeholder="Encontre livros aqui">
+        <div id="lupa"></div>
+    </div>
+    <div class="conteiner">
+        <div class="item item-1" href="">
+            <img src="imgs/A Culpa é das Estrelas.jpg" alt="">
+            <H2>A Culpa é Das Estrelas</H2>
+            <p>4.0</p>
+            <div class="estrela">
+                <img src="imgs/estrelas.png" alt="">
+            </div>
+        </div>
+
+        <div class="item item-sla">
+            <img src="imgs/A Hipotese do amor.jpg" alt="">
+            <H2 class="h2">A Hipotese do Amor</H2>
+            <p>4.2</p>
+            <div class="estrela">
+                <img src="imgs/estrelas.png" alt="">
+            </div>
+        </div>
+
+        <div class="item item-3">
+            <img src="imgs/Corte de espinhos e rosas v1.jpg" alt="">
+            <H2>Cortes De Espinhos e rosas - V1</H2>
+            <p>4.3</p>
+            <div class="estrela">
+                <img src="imgs/estrelas.png" alt="">
+            </div>
+        </div>
+
+        <div class="item item-4">
+            <img src="imgs/Orgulho e Preconceito.jpg" alt="">
+            <H2>Orgulho e Preconceito</H2>
+            <p>4.5</p>
+            <div class="estrela">
+                <img src="imgs/estrelas.png" alt="">
+            </div>
+        </div>
+
+        <div class="item item-5">
+            <img src="imgs/Amor & Gelato.jpg" alt="">
+            <H2>Amor & Gelato</H2>
+            <p>4.7</p>
+            <div class="estrela">
+                <img src="imgs/estrelas.png" alt="">
+            </div>
+        </div>
+
+        <div class="item item-6">
+            <img src="imgs/eu esse meu coração.jpg" alt="">
+            <h2>Eu e Esse Meu Coração</H2>
+            <p>4.6</p>
+            <div class="estrela">
+                <img src="imgs/estrelas.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
