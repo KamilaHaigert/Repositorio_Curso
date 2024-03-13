@@ -8,7 +8,7 @@
     <script src="menu.js"></script>
     <script src="generos.js" defer></script>
     <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
-        type='text/css'>
+    type='text/css'>
     <title>Biblioteca Sem Fronteiras</title>
 </head>
 
@@ -37,8 +37,8 @@
     <div class="logo">
         <img src="imgs/logo.png" alt="logo do site">
     </div>
-    <div class="text-box">
-        <input type="text" placeholder="Encontre livros aqui">
+    <div class="text-box" action="search.php" method="post">
+        <input type="text" id="query" name="query" placeholder="Encontre livros aqui">
         <div id="lupa"></div>
     </div>
     <div class="conteiner">
